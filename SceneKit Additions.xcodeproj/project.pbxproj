@@ -12,6 +12,7 @@
 		601A58FD1C6866240096EB37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601A58FB1C6866240096EB37 /* Main.storyboard */; };
 		601A58FF1C6866240096EB37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 601A58FE1C6866240096EB37 /* Assets.xcassets */; };
 		601A59021C6866240096EB37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601A59001C6866240096EB37 /* LaunchScreen.storyboard */; };
+		601A590A1C6866A60096EB37 /* MainScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 601A59091C6866A60096EB37 /* MainScene.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		601A58FE1C6866240096EB37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		601A59011C6866240096EB37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		601A59031C6866240096EB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		601A59091C6866A60096EB37 /* MainScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = MainScene.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				601A58F71C6866240096EB37 /* AppDelegate.swift */,
 				601A58F91C6866240096EB37 /* ViewController.swift */,
+				601A59091C6866A60096EB37 /* MainScene.scn */,
 				601A58FB1C6866240096EB37 /* Main.storyboard */,
 				601A58FE1C6866240096EB37 /* Assets.xcassets */,
 				601A59001C6866240096EB37 /* LaunchScreen.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				601A590A1C6866A60096EB37 /* MainScene.scn in Resources */,
 				601A59021C6866240096EB37 /* LaunchScreen.storyboard in Resources */,
 				601A58FF1C6866240096EB37 /* Assets.xcassets in Resources */,
 				601A58FD1C6866240096EB37 /* Main.storyboard in Resources */,
@@ -286,6 +290,7 @@
 				601A59081C6866240096EB37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
